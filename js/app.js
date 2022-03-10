@@ -28,3 +28,28 @@ function calculate() {
 function isFloat(n){
     return Number(n) === n && n % 1 !== 0;
 }
+
+// --------------------------------------
+
+const dates = [
+    {month: "03/10/2022", consume: "9339" + " kW"},
+    {month: "02/10/2022", consume: "9222.20" + " kW"},
+    {month: "01/10/2022", consume: "9005.40" + " kW"},
+    {month: "12/10/2021", consume: "8918.60" + " kW"},
+    {month: "11/10/2021", consume: "8801.80" + " kW"},
+    {month: "10/10/2021", consume: "8725.00" + " kW"},
+];
+
+let tbody = document.getElementById("items");
+for (item of dates) {
+    let tr = document.createElement("tr");
+    let td = document.createElement("td");
+    let td2 = document.createElement("td");
+    td.className = "whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6"
+    td2.className = "whitespace-nowrap px-3 py-4 text-sm text-gray-500"
+    td.innerHTML = item.month
+    td2.innerHTML = item.consume
+    tr.appendChild(td)
+    tr.appendChild(td2)
+    tbody.appendChild(tr)
+}
