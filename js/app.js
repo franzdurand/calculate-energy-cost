@@ -12,11 +12,11 @@ function calculate() {
             const meintainance = 1.32;
             const public_light = 3.47;   
             const rural_electricy = 0.97;
-            let consumo = number2 - number1
-            let sub_total = consumo * unit_price + fixed_fee + public_light + meintainance ;
+            let consume = number2 - number1
+            let sub_total = consume * unit_price + fixed_fee + public_light + meintainance ;
             let igv = sub_total * 0.18
-            let conumo_total = (sub_total + igv + rural_electricy).toFixed(2);
-            alert("S/ " + conumo_total); 
+            let consume_total = (sub_total + igv + rural_electricy).toFixed(2);
+            alert("S/ " + consume_total); 
         } else {
             alert("last count should be lower than current count")
         }
