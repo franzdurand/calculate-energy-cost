@@ -1,0 +1,45 @@
+body {
+    background: #f9f9fb;
+    font-family: sans-serif;
+}
+
+header {
+    margin-top: 30px;
+}
+
+header,
+main > .wrapper {
+    display: flex;  
+    justify-content: center;
+}
+
+main > .wrapper > form {
+    margin-top: 90px;
+    max-width: 300px;
+}
+
+main > .wrapper > form > div {
+    margin-bottom: 10px;
+}
+
+main > .wrapper > form > div > label {
+    color: #444;
+    font-weight: 600;
+}
+
+main > .wrapper > form > div > input,
+main > .wrapper > form > div > button {
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+main > .wrapper > form > div > button {
+    background: #334874;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 15px;
+}
