@@ -1,0 +1,33 @@
+{
+  "name": "calculate-consume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/app.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production"
+  },
+  "dependencies": {
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "babel-loader": "^8.2.3",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franzdurand/calculate-energy-cost.git"
+  },
+  "author": "Franz Durand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franzdurand/calculate-energy-cost/issues"
+  },
+  "homepage": "https://github.com/franzdurand/calculate-energy-cost#readme"
+}
