@@ -1,6 +1,6 @@
-# empty-project
+# Energy consume calculate
 
-Empty project.
+This app helps to calculate monthly cost of usage energy.
 
 ## Building and running on localhost
 
@@ -8,6 +8,12 @@ First install dependencies:
 
 ```sh
 npm install
+```
+
+Run dev server:
+
+```sh
+npm run dev
 ```
 
 To create a production build:
@@ -27,7 +33,3 @@ npm run build-dev
 ```sh
 node dist/bundle.js
 ```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
